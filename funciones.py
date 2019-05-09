@@ -6,6 +6,8 @@ def contar_vocales(cadena):
 
     >>> contar_vocales('hola')
     2
+    >>> contar_vocales('')
+    0
 
     :param cadena: la cadena a evaluar
     :return: int el numero de vocales en la cadena
