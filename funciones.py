@@ -12,4 +12,8 @@ def contar_vocales(cadena):
     :param cadena: la cadena a evaluar
     :return: int el numero de vocales en la cadena
     """
-    pass
+    contador = 0
+    for letrea in cadena:
+        if letrea in 'aeiouAEIOU':
+            contador += 1
+    return contador
